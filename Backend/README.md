@@ -1,4 +1,4 @@
-# Ethara AI Task Management Backend
+# Syncra Task Management Backend
 
 Production-grade REST API for an AI operations task management platform. Built with Express.js, Prisma ORM, PostgreSQL, JWT authentication, and role-based access control.
 
@@ -127,8 +127,8 @@ npm run dev
 
 | Role   | Email              | Password       |
 |--------|--------------------|----------------|
-| ADMIN  | admin@ethara.com   | admin123456    |
-| MEMBER | member@ethara.com  | member123456   |
+| ADMIN  | admin@syncra.com   | admin123456    |
+| MEMBER | member@syncra.com  | member123456   |
 
 ## Railway Deployment
 

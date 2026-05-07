@@ -27,7 +27,7 @@ export default function Sidebar({ open, onClose }: { open: boolean; onClose: () 
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#FFC436] shadow-sm">
             <Box className="h-5 w-5 text-[#1C3F35]" />
           </div>
-          <span className="text-[22px] font-extrabold text-white tracking-tight">Nexus</span>
+          <span className="text-[22px] font-extrabold text-white tracking-tight">Syncra</span>
           <button onClick={onClose} className="ml-auto rounded-md p-2 text-emerald-100/60 hover:bg-white/10 lg:hidden transition-colors">
             <X className="h-5 w-5" />
           </button>

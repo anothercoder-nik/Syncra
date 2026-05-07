@@ -8,7 +8,7 @@ const start = async () => {
     console.log('Database connected');
 
     app.listen(env.PORT, () => {
-      console.log(`Nexus API running on port ${env.PORT} [${env.NODE_ENV}]`);
+      console.log(`Syncra API running on port ${env.PORT} [${env.NODE_ENV}]`);
     });
   } catch (err) {
     console.error('Failed to start:', err);

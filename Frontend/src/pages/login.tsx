@@ -20,7 +20,7 @@ export default function LoginPage() {
       <div className="absolute inset-0 z-0 pointer-events-none opacity-40 mix-blend-multiply" style={{ backgroundImage: 'url(/login-bg.png)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
 
       <div className="absolute top-0 left-0 w-full p-6 md:p-10 flex justify-between items-start z-10">
-        <h1 className="text-2xl font-extrabold text-[#111] tracking-tight">Nexus</h1>
+        <h1 className="text-2xl font-extrabold text-[#111] tracking-tight">Syncra</h1>
         <Link to="/register" className="text-[13px] font-bold text-gray-800 hover:text-black">Sign up</Link>
       </div>
 
@@ -59,7 +59,7 @@ export default function LoginPage() {
       </div>
 
       <div className="absolute bottom-6 left-0 w-full text-center z-10">
-        <p className="text-[11px] font-bold text-gray-600">Copyright @Nexus 2024 &nbsp;|&nbsp; <a href="#" className="hover:text-black">Privacy Policy</a></p>
+        <p className="text-[11px] font-bold text-gray-600">Copyright @Syncra 2024 &nbsp;|&nbsp; <a href="#" className="hover:text-black">Privacy Policy</a></p>
       </div>
     </div>
   )

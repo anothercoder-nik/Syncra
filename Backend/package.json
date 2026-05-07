@@ -1,5 +1,5 @@
 {
-  "name": "ethara-task-management-api",
+  "name": "syncra-task-management-api",
   "version": "1.0.0",
   "description": "Production-grade REST API for AI operations task management",
   "main": "src/server.js",

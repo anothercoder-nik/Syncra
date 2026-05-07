@@ -88,7 +88,7 @@ export default function SettingsPage() {
 
         <div className="rounded-2xl border bg-white p-6" style={{ borderColor: 'var(--border-color)' }}>
           <h2 className="text-[15px] font-semibold text-[#1a1a1a] mb-3">About</h2>
-          <p className="text-[14px] font-medium text-[#1a1a1a]">Nexus AI Task Manager</p>
+          <p className="text-[14px] font-medium text-[#1a1a1a]">Syncra Task Manager</p>
           <p className="text-[12px] text-[#9C9590] mt-1">v1.0.0</p>
         </div>
       </div>

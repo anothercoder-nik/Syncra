@@ -35,7 +35,7 @@ app.get('/api/health', (req, res) => {
     status: 'healthy',
     timestamp: new Date().toISOString(),
     environment: env.NODE_ENV,
-  }, 'Nexus API is running');
+  }, 'Syncra API is running');
 });
 
 app.use('/api', routes);

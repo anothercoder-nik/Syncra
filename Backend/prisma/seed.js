@@ -9,11 +9,11 @@ async function main() {
   // Create admin user
   const adminPassword = await bcrypt.hash('admin123456', 12);
   const admin = await prisma.user.upsert({
-    where: { email: 'admin@ethara.com' },
+    where: { email: 'admin@syncra.com' },
     update: {},
     create: {
       name: 'Admin User',
-      email: 'admin@ethara.com',
+      email: 'admin@syncra.com',
       password: adminPassword,
       role: 'ADMIN',
     },
@@ -22,11 +22,11 @@ async function main() {
   // Create member user
   const memberPassword = await bcrypt.hash('member123456', 12);
   const member = await prisma.user.upsert({
-    where: { email: 'member@ethara.com' },
+    where: { email: 'member@syncra.com' },
     update: {},
     create: {
       name: 'Team Member',
-      email: 'member@ethara.com',
+      email: 'member@syncra.com',
       password: memberPassword,
       role: 'MEMBER',
     },
